@@ -17,8 +17,6 @@ endif
 immuni: export SUPPORT_EMAIL = tbd@immuni.org
 immuni: export APPSTORE_ID = 1513940977
 immuni:
-	echo "Running my code"
-	env
 	swiftgen
 	xcodegen generate --spec "${PROJECT_YAML_FILE}"
 
